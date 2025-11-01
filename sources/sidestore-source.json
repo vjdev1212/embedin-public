@@ -1,75 +1,42 @@
 {
-  "name": "Strmify",
-  "identifier": "com.vijayyuvi.strmify",
-  "subtitle": "Strmify",
-  "description": "Strmify is your streaming companion for discovering and streaming movies and TV shows through various add-on sources and third-party integrations. Find, search, and play content using your preferred media player.",
-  "iconURL": "https://raw.githubusercontent.com/vjdev1212/strmify-public/refs/heads/main/assets/images/icon.png",
-  "headerURL": "https://raw.githubusercontent.com/vjdev1212/strmify-public/refs/heads/main/assets/banners/Strmify-feature-graphic.png",
-  "website": "https://github.com/vjdev1212/strmify-public",
+  "name": "EmbedIn",
+  "identifier": "com.vijayyuvi.embedin",
+  "subtitle": "EmbedIn",
+  "description": "EmbedIn is your ultimate streaming companion, offering a simple and elegant way to explore and watch movies and TV shows from VidSrc and similar services. With a sleek interface and intuitive navigation, you can easily search for your favorite content, browse trending titles, and enjoy seamless playback—all in one place.",
+  "iconURL": "https://raw.githubusercontent.com/vjdev1212/embedin-public/refs/heads/main/assets/images/icon.png",
+  "headerURL": "https://raw.githubusercontent.com/vjdev1212/embedin-public/refs/heads/main/assets/banners/EmbedIn-feature-graphic.png",
+  "website": "https://github.com/vjdev1212/embedin-public",
   "tintColor": "#535aff",
   "featuredApps": [
-    "com.vijayyuvi.strmify"
+    "com.vijayyuvi.embedin"
   ],
   "apps": [
     {
-      "name": "Strmify",
-      "bundleIdentifier": "com.vijayyuvi.strmify",
+      "name": "EmbedIn",
+      "bundleIdentifier": "com.vijayyuvi.embedin",
       "developerName": "vjdev1212",
-      "subtitle": "Strmify - Your streaming companion for discovering and watching content from multiple sources.",
-      "localizedDescription": "Strmify is your streaming companion for discovering and streaming movies and TV shows through various add-on sources and third-party integrations. Find, search, and play content using your preferred media player.",
-      "iconURL": "https://raw.githubusercontent.com/vjdev1212/strmify-public/refs/heads/main/assets/images/icon.png",
-      "downloadURL": "https://github.com/vjdev1212/strmify-public/releases/download/v1.0.22/Strmify_v1.0.22.ipa",
+      "subtitle": "EmbedIn - Your streaming companion for discovering and watching content from multiple sources.",
+      "localizedDescription": "EmbedIn is your ultimate streaming companion, offering a simple and elegant way to explore and watch movies and TV shows from VidSrc and similar services. With a sleek interface and intuitive navigation, you can easily search for your favorite content, browse trending titles, and enjoy seamless playback—all in one place.",
+      "iconURL": "https://raw.githubusercontent.com/vjdev1212/embedin-public/refs/heads/main/assets/images/icon.png",
+      "downloadURL": "https://github.com/vjdev1212/embedin-public/releases/download/v1.0.13/EmbedIn_v1.0.13.ipa",
       "tintColor": "#535aff",
       "category": "entertainment",
       "screenshots": [
-        "https://raw.githubusercontent.com/vjdev1212/strmify-public/refs/heads/main/Strmify-screenshots/iPhone/5-Carousel.png",
-        "https://raw.githubusercontent.com/vjdev1212/strmify-public/refs/heads/main/Strmify-screenshots/iPhone/1-Home%20Screen.png",
-        "https://raw.githubusercontent.com/vjdev1212/strmify-public/refs/heads/main/Strmify-screenshots/iPhone/2-Movie-Details.png",
-        "https://raw.githubusercontent.com/vjdev1212/strmify-public/refs/heads/main/Strmify-screenshots/iPhone/3-TV-Details.png",
-        "https://raw.githubusercontent.com/vjdev1212/strmify-public/refs/heads/main/Strmify-screenshots/iPhone/4-Search.png",
-        "https://raw.githubusercontent.com/vjdev1212/strmify-public/refs/heads/main/Strmify-screenshots/iPhone/6-Trakt-Integration.png"
+        "https://raw.githubusercontent.com/vjdev1212/embedin-public/refs/heads/main/EmbedIn-screenshots/iPhone/5-Carousel.png",
+        "https://raw.githubusercontent.com/vjdev1212/embedin-public/refs/heads/main/EmbedIn-screenshots/iPhone/1-Home%20Screen.png",
+        "https://raw.githubusercontent.com/vjdev1212/embedin-public/refs/heads/main/EmbedIn-screenshots/iPhone/2-Movie-Details.png",
+        "https://raw.githubusercontent.com/vjdev1212/embedin-public/refs/heads/main/EmbedIn-screenshots/iPhone/3-TV-Details.png",
+        "https://raw.githubusercontent.com/vjdev1212/embedin-public/refs/heads/main/EmbedIn-screenshots/iPhone/4-Search.png",
       ],
       "versions": [
         {
-          "version": "1.0.22",
-          "date": "2025-10-25",
-          "localizedDescription": "• Added Watch History support. Media Player Improvements.\n• UI Improvements.",
-          "downloadURL": "https://github.com/vjdev1212/strmify-public/releases/download/v1.0.22/Strmify_v1.0.22.ipa",
+          "version": "1.0.13",
+          "date": "2025-11-01",
+          "localizedDescription": "• Fixed Android Issues. \n• UI Improvements.",
+          "downloadURL": "https://github.com/vjdev1212/embedin-public/releases/download/v1.0.13/EmbedIn_v1.0.13.ipa",
           "size": 8680000,
           "minOSVersion": "18.0"
-        },
-        {
-          "version": "1.0.21",
-          "date": "2025-10-21",
-          "localizedDescription": "• Android-specific improvements. Fixed space issues on Android.\n• PWA Support Changes.",
-          "downloadURL": "https://github.com/vjdev1212/strmify-public/releases/download/v1.0.21/Strmify_v1.0.21.ipa",
-          "size": 8680000,
-          "minOSVersion": "18.0"
-        },
-        {
-          "version": "1.0.20",
-          "date": "2025-10-07",
-          "localizedDescription": "• Updated Media players with native menus.\n• UI Improvements.",
-          "downloadURL": "https://github.com/vjdev1212/strmify-public/releases/download/v1.0.20/Strmify_v1.0.20.ipa",
-          "size": 8680000,
-          "minOSVersion": "18.0"
-        },
-        {
-          "version": "1.0.19",
-          "date": "2025-10-03",
-          "localizedDescription": "• Added support for both Native and VLCKit Media Player.\n• Added Trailer (YouTube) functionality.\n• UI Improvements and bug fixes.",
-          "downloadURL": "https://github.com/vjdev1212/strmify-public/releases/download/v1.0.19/Strmify_v1.0.19.ipa",
-          "size": 8680000,
-          "minOSVersion": "18.0"
-        },
-        {
-          "version": "1.0.18",
-          "date": "2025-09-27",
-          "localizedDescription": "• Fixed TV Shows not showing subtitles in the media player.\n• Added zoom-in and zoom-out controls for videos.\n• UI Adjustments and Improvements.",
-          "downloadURL": "https://github.com/vjdev1212/strmify-public/releases/download/v1.0.18/Strmify_v1.0.18.ipa",
-          "size": 8680000,
-          "minOSVersion": "18.0"
-        }                       
+        },                               
       ],
       "appPermissions": {
         "entitlements": [],
@@ -79,14 +46,14 @@
   ],
   "news": [
     {
-      "title": "Strmify v1.0.22 Released",
-      "identifier": "strmify-v1.0.22-release",
-      "caption": "1. Added Watch History support.\n2. Media Player Improvements.\n3. UI Improvements",
-      "date": "2025-10-25",
+      "title": "EmbedIn v1.0.13 Released",
+      "identifier": "embedin-v1.0.13-release",
+      "caption": "1. Fixed Android Issues \n2. UI Improvements",
+      "date": "2025-11-01",
       "tintColor": "#535aff",
-      "imageURL": "https://raw.githubusercontent.com/vjdev1212/strmify-public/refs/heads/main/assets/banners/Strmify-feature-graphic.png",
+      "imageURL": "https://raw.githubusercontent.com/vjdev1212/embedin-public/refs/heads/main/assets/banners/EmbedIn-feature-graphic.png",
       "notify": true,
-      "url": "https://github.com/vjdev1212/strmify-public/releases/tag/v1.0.22"
+      "url": "https://github.com/vjdev1212/embedin-public/releases/tag/v1.0.13"
     }
   ]
 }
